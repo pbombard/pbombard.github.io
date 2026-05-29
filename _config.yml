@@ -5,24 +5,22 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name"
+title                    : "Pamela Bombarda"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Professional Description"
+name                     : &name "Pamela Bombarda"
+description              : &description "Associate Professor of Economics at CY Cergy-Paris Université"
 url                      : https://pbombard.github.io
 baseurl                  : ""
 repository               : "pbombard/pbombard.github.io"
-teaser                   :
 breadcrumbs              : false
-words_per_minute         : 160
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Pamela Bombarda"
   avatar           : "/images/profile.jpg"
-  bio              : "Your bio goes here"
-  location         : "Your Location"
-  email            : "your.email@example.com"
+  bio              : "Associate Professor of Economics at CY Cergy-Paris Université"
+  location         : "Cergy-Pontoise, France"
+  email            : "pamela.bombarda@cyu.fr"
   github           : "pbombard"
   linkedin         :
   twitter          :
@@ -58,7 +56,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -87,10 +85,10 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
@@ -103,7 +101,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: America/New_York
+timezone: Europe/Paris
 
 # Plugins
 plugins:
